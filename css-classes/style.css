@@ -1,0 +1,92 @@
+/* css for fbsigninpage.html */
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  height: 100vh;
+  background-color: #eee;
+  gap: 30px;
+
+
+}
+
+.text {
+  /* border: 2px solid red; */
+  width: 25%;
+  /* color: blue; */
+}
+h1{
+  color: blue;
+  /* margin: 0px; */
+}
+
+.form {
+  border: 2px black;
+  background-color: white;
+  width: 30%;
+  padding: 2%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  /* box-sizing: border-box; */
+  margin-bottom: 12px;
+  color: blue;
+
+}
+
+.login {
+  display: block;
+  background-color: blue;
+  color: white;
+  width: 100%;
+  margin-bottom: 12px;
+
+}
+
+a {
+
+  color: blue;
+  display: block;
+  text-align: center;
+  margin-bottom: 12px;
+
+
+
+}
+
+hr {
+  margin-bottom: 12px;
+
+}
+
+button {
+  color: white;
+  width: 50%;
+  margin: 0px auto;
+  display: block;
+  background-color: green;
+
+}
+
+
+/* css for centring a div using positioning  */
+.container{
+  position: relative;
+  height: 100vh;
+
+
+}
+.content{
+  position: absolute;
+  padding: 10px;
+}
